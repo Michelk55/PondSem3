@@ -1,0 +1,31 @@
+# Regrade de Negócios - Estoque - Grupo 4
+## Michel Khafif
+
+| Nº    | Descrição                 | Critérios de Aplicação                                           | Ações                                                | Área Responsável   |
+|-------|---------------------------|------------------------------------------------------------------|------------------------------------------------------|--------------------|
+| ES001 | Alocação de Itens nos Depósitos | Cada item deve ser alocado no depósito correspondente conforme o tipo de item. | Alocar itens automaticamente aos depósitos designados usando o sistema SAP Business One. | Equipe de Logística |
+| ES002 | Monitoramento de Níveis de Estoque | Monitoramento contínuo dos níveis de estoque para cada item. | Gerar alertas automáticos quando os níveis de estoque de qualquer item caírem abaixo do mínimo definido. | Equipe de Estoque  |
+| ES003 | Revisão de Estoque Defeituoso | Itens devolvidos como defeituosos após venda ou durante a garantia. | Inspeção de qualidade e decisão sobre reparo, descarte ou retorno ao fornecedor. | Controle de Qualidade |
+| ES004 | Manutenção de Estoque de Segurança | Itens com alta rotatividade e importância crítica. | Manter um estoque de segurança baseado na análise de vendas dos últimos 6 meses. | Planejamento de Estoque |
+| ES005 | Atualização de Dados de Estoque no SAP | Todos os itens recebidos, vendidos ou devolvidos. | Atualizar o inventário no sistema SAP Business One em tempo real para refletir todas as movimentações de estoque. | Operador de Sistema |
+
+## Descrições das Regras de negócios:
+
+1. **ES001**: Esta regra assegura que todos os itens sejam alocados corretamente, evitando desorganização e facilitando a localização rápida dos produtos.
+2. **ES002**: O monitoramento eficaz dos níveis de estoque previne situações de falta de produto, possibilitando ações proativas para reabastecimento.
+3. **ES003**: A gestão de produtos defeituosos é crucial para manter a confiança do cliente e a integridade do estoque.
+4. **ES004**: A manutenção de um estoque de segurança para itens de alta demanda assegura a continuidade das operações comerciais sem interrupções devido à falta de estoque.
+5. **ES005**: A atualização em tempo real do inventário no sistema SAP ajuda na precisão dos dados de estoque, essencial para a tomada de decisão operacional e estratégica.
+
+
+## Diagramas DMN
+### ES001
+![](images/ES001.png)
+### ES002
+![](images/ES002.png)
+### ES003
+![](images/ES003.png)
+### ES004
+![](images/ES004.png)
+### ES005
+![](images/ES005.png)
